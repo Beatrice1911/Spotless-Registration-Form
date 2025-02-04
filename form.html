@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="#" method="post" id="myForm">
+        <div class="container"><img src="Images/grace.jpg" alt="Image"></div>
+        <div class="head1">
+            <h1 class="container"><b>SPOTLESS DIGITAL</b></h1>
+        </div>
+        <div class="head2">
+            <h1 class="container"><b>TECHNOLOGY LIMITED</b></h1><br>
+        </div>
+        <div class="names">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" placeholder="Enter your first name here"><br>
+        <label for="mname">Middle name(if any):</label><br>
+        <input type="text" id="mname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" placeholder="Enter your last name here"><br>
+        </div>
+        <div class="gender">
+            <p>Gender:</p>
+            <input type="radio" name="gender">
+            <label for="Gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="radio">Female</label>
+            </div>
+        <div class="others">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="emailaddress@gmail.com"><br>
+        <small id="emailError">*Invalid Email Address</small>
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" placeholder="000-0000-0000"><br>
+        <small id="phoneError">*Invalid Phone Number</small>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd"><br>
+        <small id="pwdError">*Password must contain at least one lowercase character, one uppercase
+            character, one digit and one special character
+        </small>
+        <label for="cpwd">Confirm password:</label><br>
+        <input type="password" id="cpwd"><br>
+        <small id="cpwdError">*Passwords do not match</small>
+        <label for="address">Address:</label><br>
+        <input type="text" placeholder="Enter your home address here"><br>
+        </div>
+        
+        <div class="select">
+        <label for="state">State of Origin:</label><br>
+        </div>
+        <select name="" id="">
+            <option value="1">State</option>
+            <option value="2">Abia</option>
+            <option value="3">Adamawa</option>
+            <option value="4">Akwa-Ibom</option>
+            <option value="5">Anambra</option>
+            <option value="6">Bauchi</option>
+            <option value="7">Bayelsa</option>
+            <option value="8">Benue</option>
+            <option value="9">Borno</option>
+            <option value="10">Cross River</option>
+            <option value="11">Delta</option>
+            <option value="12">Ebonyi</option>
+            <option value="13">Edo</option>
+            <option value="14">Ekiti</option>
+            <option value="15">Enugu</option>
+            <option value="16">Gombe</option>
+            <option value="17">Imo</option>
+            <option value="18">Jigawa</option>
+            <option value="19">Kaduna</option>
+            <option value="20">Kano</option>
+            <option value="21">Katsina</option>
+            <option value="22">Kebbi</option>
+            <option value="23">Kogi</option>
+            <option value="24">Kwara</option>
+            <option value="25">Lagos</option>
+            <option value="26">Nasarawa</option>
+            <option value="27">Niger</option>
+            <option value="28">Ogun</option>
+            <option value="29">Ondo</option>
+            <option value="30">Osun</option>
+            <option value="31">Oyo</option>
+            <option value="32">Plateau</option>
+            <option value="33">Rivers</option>
+            <option value="34">Sokoto</option>
+            <option value="35">Taraba</option>
+            <option value="36">Yobe</option>
+            <option value="37">Zamfara</option>
+            <option value="38">FCT</option>
+        </select><br>
+        
+
+        <div class="one">
+        <label for="passport">Passport:</label><br>
+        <input type="file"><br>
+
+        <input type="checkbox">
+        <label for="checkbox">Subscribe to Spotless Digital </label><br><br>
+        </div>
+
+        <div class="container"><button type="submit"><b>Submit</b></button></div>
+
+    </form>    
+    <script src="form.js"></script> 
+</body>
+</html>

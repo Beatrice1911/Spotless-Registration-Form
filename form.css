@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: navy;
+}
+form{
+    background-color: cornsilk;
+    width: 45%;
+    border-radius: 10px;
+    margin: 120px auto;
+    padding: 10px;
+    box-shadow: 0 0 20px orangered;
+    
+}
+img{
+    width: 70px;
+}
+h1{
+    text-align: center;
+}
+.head1{
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 5px orange;
+    font-size: 20px;
+}    
+
+.head2{
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 5px navy;
+
+}
+.names, .others, .select, p{
+    color: blue;
+    font-size: 20px;
+}
+.gender label{
+    padding: 15px;
+    color: #333;
+    font-size: 20px;
+}
+button{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 30px;
+}
+.one{
+    color: blue;
+    font-size: 20px;
+}
+select{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+button:hover{
+    color: white;
+    background-color: rgb(233, 67, 6);
+
+}
+
+input[type=text], input[type=email], input[type=password], input[type=tel], input[type=file] {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid navy;
+}
+input[type=radio]{
+    width: 30px;
+    
+}
+input[type=file]{
+    height: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    button{
+        width: 100%;
+        margin-top: 0;
+    }
+    img{
+        width: 40%;
+        margin-top: 0;
+        height: 20vh;
+    }
+    form{
+        width: 90%;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
+small{
+    display: none;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
